@@ -12,13 +12,13 @@
 		"wordpress"
 	],
 	"require": {
-		"php": ">=7.0",
+		"php": ">=7.2",
 		"composer-plugin-api": "^1.1 || ^2.0"
 	},
 	"require-dev": {
 		"composer/composer": "^1.1 || ^2.0",
 		"yoast/phpunit-polyfills": "^1.1.1",
-		"automattic/jetpack-changelogger": "^4.2.8"
+		"automattic/jetpack-changelogger": "^5.0.0-alpha"
 	},
 	"autoload": {
 		"classmap": [
@@ -53,7 +53,7 @@
 			"::VERSION": "src/AutoloadGenerator.php"
 		},
 		"branch-alias": {
-			"dev-trunk": "3.1.x-dev"
+			"dev-trunk": "4.0.x-dev"
 		}
 	}
 }
