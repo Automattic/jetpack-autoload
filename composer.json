@@ -18,7 +18,7 @@
 	"require-dev": {
 		"composer/composer": "^1.1 || ^2.0",
 		"yoast/phpunit-polyfills": "^1.1.1",
-		"automattic/jetpack-changelogger": "^5.0.0"
+		"automattic/jetpack-changelogger": "^5.1.0-alpha"
 	},
 	"autoload": {
 		"classmap": [
@@ -53,7 +53,7 @@
 			"::VERSION": "src/AutoloadGenerator.php"
 		},
 		"branch-alias": {
-			"dev-trunk": "4.0.x-dev"
+			"dev-trunk": "5.0.x-dev"
 		}
 	}
 }
