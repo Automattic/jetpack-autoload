@@ -5,13 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.0.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.0.0] - 2024-11-25
 ### Removed
-- Drop support for Composer <2.2.
-- Remove support for WordPress 6.5 and earlier.
+- Drop support for Composer <2.2. [#40297]
+- Remove support for WordPress 6.5 and earlier. [#40200]
 
 ## [4.0.0] - 2024-11-14
 ### Removed
@@ -401,7 +398,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Add Custom Autoloader
 
-[5.0.0-alpha]: https://github.com/Automattic/jetpack-autoloader/compare/v4.0.0...v5.0.0-alpha
+[5.0.0]: https://github.com/Automattic/jetpack-autoloader/compare/v4.0.0...v5.0.0
 [4.0.0]: https://github.com/Automattic/jetpack-autoloader/compare/v3.1.3...v4.0.0
 [3.1.3]: https://github.com/Automattic/jetpack-autoloader/compare/v3.1.2...v3.1.3
 [3.1.2]: https://github.com/Automattic/jetpack-autoloader/compare/v3.1.1...v3.1.2
